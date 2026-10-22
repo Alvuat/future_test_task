@@ -1,0 +1,51 @@
+{
+  "forms": [
+    {
+      "id": "08f6fe1d",
+      "title": "Новая форма",
+      "description": "Расскажите немного о себе — мы свяжемся с вами.",
+      "fields": [],
+      "published": false,
+      "createdAt": "2026-10-22T15:56:57.809Z",
+      "responses": []
+    },
+    {
+      "id": "internship",
+      "title": "Отклик на стажировку",
+      "description": "Мы ищем любопытных и увлечённых студентов. Расскажите о себе — это займёт всего пару минут.",
+      "fields": [
+        {
+          "id": "name",
+          "label": "Как к вам обращаться?",
+          "type": "text",
+          "required": true,
+          "placeholder": "Имя и фамилия"
+        },
+        {
+          "id": "email",
+          "label": "Электронная почта",
+          "type": "email",
+          "required": true,
+          "placeholder": "you@example.com"
+        },
+        {
+          "id": "portfolio",
+          "label": "Ссылка на портфолио или резюме",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://"
+        },
+        {
+          "id": "about",
+          "label": "Расскажите немного о себе",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Опыт, интересы, что хотелось бы попробовать…"
+        }
+      ],
+      "published": true,
+      "createdAt": "2026-10-22T15:50:39.484Z",
+      "responses": []
+    }
+  ]
+}

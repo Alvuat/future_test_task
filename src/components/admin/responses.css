@@ -1,0 +1,130 @@
+.responses-page {
+  padding: 40px 50px;
+}
+.responses-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+.response-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  color: #9995a3;
+}
+.response-filter select {
+  min-width: 150px;
+  border: 1px solid #eceaf0;
+  border-radius: 6px;
+  padding: 8px;
+  background: white;
+  color: #555164;
+  font-size: 10px;
+}
+.response-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: #fff;
+  border: 1px solid #eeecf2;
+  border-bottom: 0;
+  border-radius: 9px 9px 0 0;
+  padding: 14px 16px;
+}
+.response-toolbar strong {
+  font-size: 11px;
+  color: #484458;
+}
+.response-toolbar span {
+  font-size: 9px;
+  background: #f4f2f7;
+  border-radius: 10px;
+  padding: 3px 7px;
+  color: #9995a3;
+}
+.responses-table {
+  border-radius: 0 0 9px 9px;
+}
+.responses-table .table-head {
+  grid-template-columns: 1.3fr 1fr 140px 20px;
+}
+.response-row {
+  width: 100%;
+  min-height: 65px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 140px 20px;
+  align-items: center;
+  text-align: left;
+  padding: 0 16px;
+  gap: 12px;
+  background: #fff;
+  border: 0;
+  border-bottom: 1px solid #f2f0f4;
+}
+.response-row:last-child {
+  border: 0;
+}
+.response-row:hover {
+  background: #fcfbfd;
+}
+.candidate-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.candidate-avatar {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #f4eefb;
+  color: #7f68ca;
+  font: 700 12px 'Manrope';
+}
+.candidate-cell > span:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.candidate-cell strong {
+  font-size: 10px;
+  color: #444052;
+}
+.candidate-cell small,
+.candidate-form {
+  font-size: 9px;
+  color: #a09daa;
+}
+.response-row > svg {
+  color: #aaa6b4;
+}
+.response-empty {
+  border-radius: 0 0 9px 9px;
+}
+.answer-detail-title {
+  font: 700 19px 'Manrope';
+  color: #302c3f;
+  margin: 7px 0 25px;
+}
+.detail-answer {
+  padding: 14px 0;
+  border-bottom: 1px solid #efedf2;
+}
+.detail-answer > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  color: #777283;
+}
+.detail-answer p {
+  margin: 9px 0 0 31px;
+  font-size: 12px;
+  line-height: 1.65;
+  color: #3e3a4a;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
